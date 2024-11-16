@@ -3,14 +3,14 @@
   --header-height: 3.5rem;
 
   /*========== Colors ==========*/
-  --first-color: hsl(230, 100%, 60%);
-  --first-color-alt: hsl(240, 100%, 100%);
-  --color-particles: hsl(230, 100%, 52%);
+  --first-color: hsl(163, 51%, 50%);
+  --first-color-alt: hsl(163, 51%, 50%);
+  --color-particles: hsl(163, 51%, 50%);
   --title-color: hsl(0, 0%, 95%);
   --text-color: hsl(0, 0%, 75%);
   --text-color-light: hsl(0, 0%, 65%);
   --black-color: hsl(0, 0%, 6%);
-  --body-color: hsl(225, 46%, 31%);
+  --body-color: hsl(163, 51%, 50%);
   --container-color: hsl(0, 0%, 10%);
 
   /*========== Font and typography ==========*/
