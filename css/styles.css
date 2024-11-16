@@ -140,7 +140,7 @@ img {
 }
 
 .nav__logo{
-    color: #aab4d8;
+    color: #6fda5c;
     font-size: 1.5rem;
     font-family: var(--second-font);
     transition: color .4s;
@@ -192,7 +192,7 @@ img {
 }
 
 .nav__link:hover{
-    color: var(--first-color);
+    color: #0f3508;
 }
 
 
@@ -278,7 +278,7 @@ img {
 }
 
 .home__shadow{
-  background: linear-gradient(180deg,hsla(0, 0%, 0%, 0), hsl(0, 0%, 0%) 100%);
+  background: linear-gradient(180deg,hsla(111, 64%, 35%, 0.502), hsl(110, 84%, 29%) 100%);
 }
 
 .home__data{
@@ -349,15 +349,23 @@ canvas {
 
 /*   OFERTA   */
 
+.oferta{
+    background: #fff;
+}
+
 .oferta__container{
   padding-top: 3.5rem;
   grid-template-columns: repeat(2, 1fr);
   gap: 4rem, 1.5rem;
 }
 
+.oferta__h1{
+    color: #000;
+}
+
 .oferta__card{
   position: relative;
-  background-color: var(--container-color);
+  background-color: #6fda5c;
   box-shadow: 10px 8px 24px hsla(0, 0%, 100%, 0.571);
   padding: 6.5rem 1rem 1.25rem;
   border: 2px solid transparent;
@@ -383,7 +391,7 @@ canvas {
 .oferta__title{
   font-size: var(--h2-font-size);
   font-family: var(--second-font);
-  color: var(--first-color);
+  color: #000;
   margin-top: -2rem;
   text-align: center;
 }
@@ -411,7 +419,7 @@ canvas {
 /*   PORTFOLIO   */
 
 .portfolio{
-  background-color: #1d1c36;
+  background-color: #6fda5c;
 }
 
 .portfolio__container{
@@ -454,7 +462,7 @@ canvas {
 
 .footer{
   padding-block: 3rem 2rem;
-  background: linear-gradient(180deg,hsla(0, 0%, 0%, 0), hsl(0, 0%, 6%) 100%);
+  background: linear-gradient(180deg,hsla(111, 64%, 35%, 0.502), hsl(110, 84%, 29%) 100%);
 
 }
 
@@ -466,7 +474,7 @@ canvas {
 
 .footer__logo{
   display: inline-block;
-  color: var(--first-color);
+  color: #fff;
   font-size: var(--h2-font-size);
   font-family: var(--second-font);
   font-weight: 900;
