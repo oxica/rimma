@@ -366,18 +366,34 @@ canvas {
 .oferta__card{
   position: relative;
   background-color: #6fda5c;
-  box-shadow: 10px 8px 24px hsla(0, 0%, 100%, 0.571);
+  box-shadow: 10px 8px 24px hsla(120, 7%, 34%, 0.571);
   padding: 6.5rem 1rem 1.25rem;
   border: 2px solid transparent;
   transition: border-color, box-shadow .4s;
-  margin-bottom: 4rem;
-  border-radius: 12px;
+  margin-bottom: 5rem;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
 }
 
 .oferta__card:hover{
-  border-color: var(--first-color);
-  box-shadow: 18px 18px 30px hsla(0, 0%, 100%, 0.865);
+  border-color: #73b966;
+  box-shadow: 14px 12px 28px hsla(120, 40%, 51%, 0.865);
 }
+
+.oferta__data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.oferta i{
+    font-size: 1.5rem;
+  color: #fff;
+}
+
+
 
 .oferta__img{
   width: 240px;
@@ -786,7 +802,7 @@ canvas {
   }
 
   .oferta__container{
-    grid-template-columns: repeat(3, 335px);
+    grid-template-columns: repeat(4, 220px);
     align-items:start;
   }
 
