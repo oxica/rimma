@@ -11,13 +11,13 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.7.0/remixicon.css">
     <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="./css/modal.css">
 </head>
 <body>
     <header class="header" id="header">
         <nav class="nav container">
           <a href="#" class="nav__logo"><i class="ri-scissors-line"></i>Fryzjer Rimma</a>
           <div class="nav__menu" id="nav-menu">
+
             <ul class="nav__list">
               <li class="nav__item">
                 <a href="#home" class="nav__link active-link">Home</a>
@@ -31,7 +31,6 @@
               <li class="nav__item">
                 <a href="#contact" class="nav__link">Kontakt</a>
               </li>
-              
             </ul>
             
             
@@ -54,52 +53,29 @@
       </header>
 
       <main class="main">
-<!--==================== HOME ====================-->
-
+        <!--======================================== HOME ========================================-->
         <section class="home section" id="home">
-          <div class="home__shadow"> 
-          </div>
+          <img src="./images/abstract-green-smooth-wave-lines.jpg"  alt="">
+          <div class="home__shadow"></div>
             <div class="home__data">
+              <!-- <img src="./images/home-image.png" alt=""> -->
+
               <h1 class="home__title">
                 Fryzjer Rimma
               </h1>
               <h2 class="home__text">Mobilny fryzjer w Kaliszu </h2>
+             
             </div>
 
             <!-- <div class="home_img">
               <img src="./images/silhouette.png" alt="fryzjer">
             </div> -->
-
-          
-
-            <!-- <div class="home__footer">
-              <div class="home__location">
-                <i class="ri-map-pin-line"></i>
-                <span
-                  >Polska, <br>
-                  Kalisz, 62-800</span
-                >
-              </div>
-              <div class="home__social">
-                <a href="https://www.facebook.com/oxi.kaplban" target="_blank">
-                  <i class="ri-facebook-circle-line"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/oxica/" target="_blank">
-                  <i class="ri-linkedin-line"></i>
-                </a>
-                <a href="https://github.com/oxica" target="_blank">
-                  <i class="ri-github-line"></i>
-                </a>
-              </div>
-            </div> -->
-          
         </section>
 
-        <!--==================== OFERTA ====================-->
+        <!--======================================== OFERTA ========================================-->
 
         <section class="oferta section" id="oferta">
-          <!-- <img src="./images/laptop.png" alt="laptop" class="home__bg"> -->
-          <h2 class="section__title oferta__h1">Oferta</h2>
+          <h2 class="section__title oferta__h2">Oferta</h2>
 
           <div class="oferta__container container grid">
 
@@ -133,6 +109,9 @@
 
           </div>
         </section>
+
+       <!--======================================== PORTFOLIO ========================================-->
+
 
         <section class="portfolio section" id="portfolio">
           <h2 class="section__title portfolio__title">Portfolio</h2>
@@ -169,19 +148,14 @@
             </div>
           </div>
         </section>
-
-        
-        
       </main>
+
+        <!--======================================== FOOTER ========================================-->
 
       <footer class="footer" id="contact">
         <div class="footer__container container grid">
           <div>
             <a href="#" class="footer__logo"><i class="ri-scissors-line"></i>Fryzjer Rimma</a>
-            <!-- <p class="footer__description">
-              Kompleksowe usługi IT<br>
-              w jednym miejscu
-            </p> -->
           </div>
   
           <div class="footer__content grid">
@@ -210,9 +184,6 @@
               <h3 class="footer__title">Contact Me</h3>
               <address>
                 <ul class="footer__list">
-                  <!-- <li>
-                    <a class="footer__info" href="mailto:jarantowskaoksana@gmail.com">jarantowskaoksana@gmail.com</a>
-                  </li> -->
                   <li>
                     <a class="footer__info" href="tel:+48503083356">+48 503 083 356</a>
                   </li>
@@ -224,8 +195,8 @@
               <h3 class="footer__title">Follow Me</h3>
               <address>
                 <div class="footer__social">
-                  <a href="https://www.facebook.com/profile.php?id=100092586417214" target="_blank">
-                    <i class="ri-facebook-circle-line"></i>
+                  <a href="https://www.facebook.com/profile.php?id=100092586417214" class="footer__info" target="_blank" >
+                    <i class="ri-facebook-circle-line"></i> Facebook
                   </a>
                   <!-- <a href="https://www.linkedin.com/in/oxica/" target="_blank">
                     <i class="ri-linkedin-line"></i>
@@ -242,70 +213,10 @@
           <img src="./images/lines.png" alt="it" class="footer__img-2" > -->
         </div>
   
-        <span class="footer__copy">2024 &#169; All Rights Reserved By <a href="https://it-room.pl/">IT-room</a></span>
-      </footer>
-
-      <div class="backdrop is-hidden" data-modal>
-        <div class="modal">
-            <button type="button" class="close-btn" data-modal-close>
-              <svg class="modal-icon" width="11" height="11">
-                <use href="./images/icons.svg#icon-vector"></use>
-              </svg>
-            </button>
-            
-            <form class="form" id="form">
-              <span class="form-title">Zostaw komentarz, a my skontaktujemy się z Tobą</span>
-                   
-              <div class="form-field top-title">
-                <label class="form-label" for="name">Imię</label>
-                <input class="form-input clean" type="text" name="name" id="name" placeholder="Imię">
-                <svg class="input-icon" width="12" height="12">
-                  <use
-                      href="./images/icons.svg#icon-name"
-                  ></use>
-                </svg>
-              </div>
-              <div class="form-field">
-                <label class="form-label" for="tel">Telefon</label>
-                <input class="form-input clean" type="tel" name="tel" id="tel" placeholder="+481231213">
-                <svg class="input-icon" width="12" height="12">
-                  <use
-                      href="./images/icons.svg#icon-tel"
-                  ></use>
-                </svg>
-              </div>
-              <div class="form-field">
-                <label class="form-label" for="email">e-mail</label>
-                <input class="form-input clean" type="email" name="email" id="email" placeholder="myemail@gmail.com">
-                <svg class="input-icon" width="12" height="12">
-                  <use
-                      href="./images/icons.svg#icon-mail"
-                  ></use>
-                </svg>
-              </div>
-              <div class="form-field">
-                <label class="comment-label" for="text">Komentarz</label>
-                <textarea class="text clean" name="text" id="text" rows="9" placeholder="Wpisz tekst"></textarea>
-              </div>
-              <div class="form-field-chek">
-                
-                <!-- <label class="policy-label" for="policy"></a> 
-                  <input class="form-checkbox" type="checkbox" name="policy" id="policy">
-                  <span class="icon-chek"></span>
-                  Соглашаюсь с рассылкой и принимаю <a class="policy-link" href="">Условия договора</a>
-                </label> -->
-                
-              </div>
-              <button class="form-btn" name="send" type="submit">Wysłać</button>
-            </form>
-        </div>
-      </div>
-
-      <!-- <script src="./js/modal.js"></script> -->
-      
+        <span class="footer__copy">2024 &#169; Strona zaprojektowana i stworzona przez <a href="https://it-room.pl/">IT-room</a></span>
+      </footer>      
 
     <script src="./js/index.js"></script>
     
-
 </body>
 </html>
