@@ -809,6 +809,7 @@ left: 950px;
   .oferta__container{
     grid-template-columns: repeat(4, 220px);
     align-items:start;
+    padding-bottom: 35px;
   }
 
   .portfolio__container{
