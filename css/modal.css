@@ -1,28 +1,38 @@
 :root {
-    --header-height: 3.5rem;
-  
-    /*========== Colors ==========*/
-    --first-color: hsl(230, 100%, 60%);
-    --first-color-alt: hsl(240, 100%, 100%);
-    --color-particles: hsl(230, 100%, 52%);
-    --title-color: hsl(0, 0%, 95%);
-    --text-color: hsl(0, 0%, 75%);
-    --text-color-light: hsl(0, 0%, 65%);
-    --black-color: hsl(0, 0%, 6%);
-    --body-color: hsl(225, 46%, 31%);
-    --container-color: hsl(0, 0%, 10%);
-  
-    /*========== Font and typography ==========*/
-    /*.5rem = 8px | 1rem = 16px ...*/
-    --body-font: "Poppins", sans-serif;
-    --second-font: "Arima", cursive;
-    --biggest-font-size: 3rem;
-    --bigger-font-size: 2.5rem;
-    --h1-font-size: 1.5rem;
-    --h2-font-size: 1.25rem;
-    --h3-font-size: 1rem;
-    --normal-font-size: .938rem;
-    --small-font-size: .813rem;
+  --header-height: 3.5rem;
+
+  /*========== Colors ==========*/
+  --first-color: #b0dc94;
+  --first-color-alt: #fdcbfd;
+  --color-particles: #9684e5;
+  --color-particles-alt:#3c814b;
+  --title-color: #9684e5;
+  --text-color: hsl(0, 0%, 75%);
+  --text-color-light: hsl(0, 0%, 65%);
+  --black-color: hsl(0, 0%, 6%);
+  --body-color: #fff;
+  --container-color: hsl(0, 0%, 10%);
+
+  /*========== Font and typography ==========*/
+  /*.5rem = 8px | 1rem = 16px ...*/
+  --body-font:  "Caveat", cursive;
+  --second-font: "Caveat", cursive;
+  --biggest-font-size: 3rem;
+  --bigger-font-size: 2.5rem;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1rem;
+  --normal-font-size: .938rem;
+  --small-font-size: .813rem;
+
+  /*========== Font weight ==========*/
+  --font-regular: 400;
+  --font-semi-bold: 600;
+  --font-bold: 700;
+
+  /*========== z index ==========*/
+  --z-tooltip: 10;
+  --z-fixed: 100;
 }
 
 .backdrop {
