@@ -220,7 +220,7 @@ img {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: hsla(0, 0%, 6%, 0.527);
+  background-color: hsla(311, 98%, 17%, 0.527);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   top: 0;
@@ -578,8 +578,8 @@ left: 950px;
 
   .home__title{
     font-size: 2rem;
-    margin-top: 8rem;
-    margin-bottom: 8rem;
+    margin-top: 7rem;
+    margin-bottom: 5rem;
   }
 
   .home__text{
