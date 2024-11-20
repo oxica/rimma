@@ -549,12 +549,12 @@ left: 950px;
 }
 
 .footer__copy a{
-  color: var(--color-particles);
+  color: var(--white-color);
   font-weight: var(--font-bold);
 }
 
 .footer__copy a:hover{
-  color: var(--white-color);
+  color: var(--color-particles);
 }
 
 /* ___________________________________________________________________________________________________ */
