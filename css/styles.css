@@ -681,6 +681,11 @@ left: 950px;
 /* ___________________________________________________________________________________________________ */
 
 @media screen and (min-width:748px){
+  .home__title{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
   .portfolio__content{
     grid-template-columns: repeat(3, 240px);
     column-gap: .05rem;
